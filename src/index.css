@@ -1032,3 +1032,87 @@ h6 {
 .cert-content {
   flex: 1;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 1024px) {
+  .portfolio-layout {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .sidebar {
+    position: relative !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hero-section {
+    padding: 2rem;
+  }
+
+  .hero-greeting {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-2-col {
+    grid-template-columns: 1fr !important;
+  }
+
+  .tabs {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    -webkit-overflow-scrolling: touch;
+    gap: 0.5rem;
+  }
+
+  .tab-btn {
+    flex-shrink: 0;
+    padding: 0.8rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .main-content {
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .card {
+    padding: 1.25rem;
+  }
+
+  .personality-result {
+    font-size: 1.1rem;
+  }
+
+  .company-carousel-container {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    padding: 0.5rem;
+  }
+  
+  .profile-name {
+    font-size: 1.4rem;
+  }
+  
+  .hero-greeting {
+    font-size: 1.5rem;
+  }
+}
