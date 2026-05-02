@@ -11,7 +11,7 @@ import './index.css';
 const PROFILE_DATA = {
   name: "Burhan DEMİR",
   title: "Bilgisayar Mühendisi",
-  photo: '/mywebsite/fotom3.jpeg',
+  photo: '/mywebsite/fotom5.png',
   about: `Burada kendim hakkımda gelişmeler paylaşıyorum. Mümkün olduğunca güncel tutmaya çalışacağım. Beni tanımak için sayfama göz atabilirsiniz.
   Kişilik kısmına göz atmayı unutmayın :) Ve evet, yapay zeka ile oluşturdum..
   `,
