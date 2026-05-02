@@ -34,7 +34,7 @@ const PROFILE_DATA = {
     {
       platform: "BugBounter",
       role: "Bug Hunter",
-      logo: '/mywebsite/194077.png',
+      logo: '/mywebsite/bugbounter.jpg',
       description: "Siber güvenlik açıklarını bulma ve raporlama süreçlerinde aktif rol alıyorum."
     },
     {
