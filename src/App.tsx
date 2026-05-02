@@ -11,7 +11,7 @@ import './index.css';
 const PROFILE_DATA = {
   name: "Burhan DEMİR",
   title: "Bilgisayar Mühendisi",
-  photo: "/fotom5.png",
+  photo: `${import.meta.env.BASE_URL}fotom3.jpeg`,
   about: `Burada kendim hakkımda gelişmeler paylaşıyorum. Mümkün olduğunca güncel tutmaya çalışacağım. Beni tanımak için sayfama göz atabilirsiniz.
   Kişilik kısmına göz atmayı unutmayın :) Ve evet, yapay zeka ile oluşturdum..
   `,
@@ -25,29 +25,29 @@ const PROFILE_DATA = {
     { name: "JAVA Programlama", level: 45 }
   ],
   previousCompanies: [
-    { name: "HAVELSAN", logo: "/Havelsan_logo.svg.png" },
-    { name: "S4E", logo: "/image.png" },
-    { name: "Artinlife", logo: "/artinlifelogo.png" },
-    { name: "Konumsal Bilgi Sistemleri", logo: "/konumsalLogo.png" }
+    { name: "HAVELSAN", logo: `${import.meta.env.BASE_URL}Havelsan_logo.svg.png` },
+    { name: "S4E", logo: `${import.meta.env.BASE_URL}image.png` },
+    { name: "Artinlife", logo: `${import.meta.env.BASE_URL}artinlifelogo.png` },
+    { name: "Konumsal Bilgi Sistemleri", logo: `${import.meta.env.BASE_URL}konumsalLogo.png` }
   ],
   freelance: [
     {
       platform: "BugBounter",
       role: "Bug Hunter",
-      logo: "/bugbounter_platformu_logo.jpg",
+      logo: `${import.meta.env.BASE_URL}194077.png`,
       description: "Siber güvenlik açıklarını bulma ve raporlama süreçlerinde aktif rol alıyorum."
     },
     {
       platform: "Medium",
       role: "Yazar / Writer",
-      logo: "/medium3.jpg",
+      logo: `${import.meta.env.BASE_URL}medium3.jpg`,
       description: "Teknoloji, yazılım ve siber güvenlik üzerine içerikler üretiyorum."
     }
   ],
   education: [
     {
       school: "Fırat Üniversitesi",
-      logo: "/Fırat_University_logo.svg.png",
+      logo: `${import.meta.env.BASE_URL}Fırat_University_logo.svg.png`,
       degree: "Bilgisayar Mühendisliği",
       dates: "2021 - 2025",
       gpa: "3.04 / 4.00"
@@ -66,49 +66,49 @@ const PROFILE_DATA = {
       name: "Introduction To Cyber Security",
       issuer: "CISCO",
       date: "2022",
-      logo: "/cisco.png"
+      logo: `${import.meta.env.BASE_URL}cisco.png`
     },
     {
       name: "CCNA 1: Introduction to Networks",
       issuer: "CISCO",
       date: "2026",
-      logo: "/cisco.png"
+      logo: `${import.meta.env.BASE_URL}cisco.png`
     },
     {
       name: "Fundamentals in Cyber Security",
       issuer: "FORTINET",
       date: "2026",
-      logo: "/fortinet.png"
+      logo: `${import.meta.env.BASE_URL}fortinet.png`
     },
     {
       name: "Linux Unhatched",
       issuer: "CISCO",
       date: "2026",
-      logo: "/cisco.png"
+      logo: `${import.meta.env.BASE_URL}cisco.png`
     },
     {
       name: "Cyber Security 101 Bootcamp",
       issuer: "TechCareer",
       date: "2025",
-      logo: "/techcareer.webp"
+      logo: `${import.meta.env.BASE_URL}techcareer.webp`
     },
     {
       name: "Web Sızma Testleri & Bug Bounty & Etik Hacker Eğitimi",
       issuer: "UDEMY",
       date: "2022-2023",
-      logo: "/udemy2.jpg"
+      logo: `${import.meta.env.BASE_URL}udemy2.jpg`
     }
   ],
   upcomingCertifications: [
     {
       name: "eWPT - Web Application Penetration Tester",
       issuer: "eLearnSecurity",
-      logo: "/ine2.png"
+      logo: `${import.meta.env.BASE_URL}ine2.png`
     },
     {
       name: "CyberOps Associate",
       issuer: "CISCO",
-      logo: "/cisco.png"
+      logo: `${import.meta.env.BASE_URL}cisco.png`
     }
   ],
   projects: [
@@ -145,7 +145,7 @@ const PROFILE_DATA = {
     },
     {
       test: "Big Five",
-      image: "/rapor.png"
+      image: `${import.meta.env.BASE_URL}rapor.png`
     }
   ]
 };
